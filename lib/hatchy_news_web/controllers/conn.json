@@ -1,0 +1,132 @@
+%Plug.Conn{
+    adapter: {Plug.Adapters.Cowboy.Conn, :...},
+    assigns: %{
+      ueberauth_auth: %Ueberauth.Auth{
+        credentials: %Ueberauth.Auth.Credentials{
+          expires: true,
+          expires_at: 1535521913,
+          other: %{},
+          refresh_token: "1/TW-phiakNObW9yMTeEOsKX1PtTDLDUXmW8MFOUP4ATQ",
+          scopes: ["https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/plus.me"],
+          secret: nil,
+          token: "ya29.GlsIBqD_DohXm7VhYt05shv_1DGxxzPegmvlMscGdR0Z0ji9U_pQOL6XoLcvwKc8eWe9cNxlUN9vZbRdaKYWeidxXlLP__m3eesTMRI6Tb3RFQFN00AkI6zvGCzA",
+          token_type: "Bearer"
+        },
+        extra: %Ueberauth.Auth.Extra{
+          raw_info: %{
+            token: %OAuth2.AccessToken{
+              access_token: "ya29.GlsIBqD_DohXm7VhYt05shv_1DGxxzPegmvlMscGdR0Z0ji9U_pQOL6XoLcvwKc8eWe9cNxlUN9vZbRdaKYWeidxXlLP__m3eesTMRI6Tb3RFQFN00AkI6zvGCzA",
+              expires_at: 1535521913,
+              other_params: %{
+                "id_token" => "eyJhbGciOiJSUzI1NiIsImtpZCI6ImI4NjNiNTM0MDY5YmZjMDIwNzE5N2JjZjgzMTMyMGQxY2RjMmNlZTIifQ.eyJhenAiOiI1MzIyODUzOTc0MTUtMjUwZzY4OGdpOXN0dDE0YWQ4bHBuc2E5N2JrZmlzZW0uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI1MzIyODUzOTc0MTUtMjUwZzY4OGdpOXN0dDE0YWQ4bHBuc2E5N2JrZmlzZW0uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTA4OTc3ODY5NDczNTgwMTk3NTEiLCJlbWFpbCI6InB5YWVwaHlvaGxhaW5nNUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IlpyWFJVb2pqdEluSEoydU04Vk1QWnciLCJleHAiOjE1MzU1MjE5MTMsImlzcyI6Imh0dHBzOi8vYWNjb3VudHMuZ29vZ2xlLmNvbSIsImlhdCI6MTUzNTUxODMxM30.DCDg4OMzrB8xSQg_a29Bf-6kh_6DmcE5bfCMDBykZ3JQRkEQSHfjp5BYiDwrlO2IyueOSCphdDi_xKnsPgFhHThUd_CVpvxJy1XhSyYgFKJIcQJaSPr4kek15cAaGUy-LZcDSN32i5tg0KDaHAKarG_l-jlIz65OdahfLGjKNV8xuOLD8ReDwEp2YGuWojk3yE8MzUdMkXYZgHJxHOrXTNbaWHew0D53x3soYEKsEbxWO_CHCnuGVBvzaIj5zAceT8bT0vs5G5cP2emJto7NMSeoleAKOzM6lXz_DrT02IZV8XQ3HhfTtAWfHTpcZqCqQPMXsYJvswAuorQlxhTppg",
+                "scope" => "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/plus.me"
+              },
+              refresh_token: "1/TW-phiakNObW9yMTeEOsKX1PtTDLDUXmW8MFOUP4ATQ",
+              token_type: "Bearer"
+            },
+            user: %{
+              "email" => "pyaephyohlaing5@gmail.com",
+              "email_verified" => true,
+              "family_name" => "phyo hlaing",
+              "given_name" => "pyae",
+              "name" => "pyae phyo hlaing",
+              "picture" => "https://lh4.googleusercontent.com/-iIk4_GqmwZI/AAAAAAAAAAI/AAAAAAAAAPU/jyVeIRvpQts/photo.jpg",
+              "profile" => "https://plus.google.com/110897786947358019751",
+              "sub" => "110897786947358019751"
+            }
+          }
+        },
+        info: %Ueberauth.Auth.Info{
+          description: nil,
+          email: "pyaephyohlaing5@gmail.com",
+          first_name: "pyae",
+          image: "https://lh4.googleusercontent.com/-iIk4_GqmwZI/AAAAAAAAAAI/AAAAAAAAAPU/jyVeIRvpQts/photo.jpg",
+          last_name: "phyo hlaing",
+          location: nil,
+          name: "pyae phyo hlaing",
+          nickname: nil,
+          phone: nil,
+          urls: %{
+            profile: "https://plus.google.com/110897786947358019751",
+            website: nil
+          }
+        },
+        provider: :google,
+        strategy: Ueberauth.Strategy.Google,
+        uid: "110897786947358019751"
+      }
+    },
+    before_send: [#Function<1.80366072/1 in Plug.Logger.call/2>,
+     #Function<0.9464484/1 in Phoenix.LiveReloader.before_send_inject_reloader/2>],
+    body_params: %{},
+    cookies: %Plug.Conn.Unfetched{aspect: :cookies},
+    halted: false,
+    host: "localhost",
+    method: "GET",
+    owner: #PID<0.411.0>,
+    params: %{
+      "code" => "4/SgDBb7ra88a6pYDeHckFxEKWNYo1qBCIAXpztE3JcTscD3Ub7tUWvVfstkIEWMoBXDtFU5n-LuXzQ7O7lYV-7Gw",
+      "provider" => "google"
+    },
+    path_info: ["auth", "google", "callback"],
+    path_params: %{"provider" => "google"},
+    peer: {{127, 0, 0, 1}, 52043},
+    port: 4000,
+    private: %{
+      HatchyNewsWeb.Router => {[], %{}},
+      :google_token => nil,
+      :google_user => nil,
+      :phoenix_action => :callback,
+      :phoenix_controller => HatchyNewsWeb.AuthController,
+      :phoenix_endpoint => HatchyNewsWeb.Endpoint,
+      :phoenix_format => "json",
+      :phoenix_layout => {HatchyNewsWeb.LayoutView, :app},
+      :phoenix_pipelines => [:api],
+      :phoenix_router => HatchyNewsWeb.Router,
+      :phoenix_view => HatchyNewsWeb.AuthView,
+      :plug_session_fetch => #Function<1.45862765/1 in Plug.Session.fetch_session/1>,
+      :ueberauth_request_options => %{
+        callback_methods: ["GET"],
+        callback_params: nil,
+        callback_path: "/auth/google/callback",
+        callback_url: nil,
+        options: [],
+        request_path: "/auth/google",
+        strategy: Ueberauth.Strategy.Google,
+        strategy_name: :google
+      }
+    },
+    query_params: %{
+      "code" => "4/SgDBb7ra88a6pYDeHckFxEKWNYo1qBCIAXpztE3JcTscD3Ub7tUWvVfstkIEWMoBXDtFU5n-LuXzQ7O7lYV-7Gw"
+    },
+    query_string: "code=4/SgDBb7ra88a6pYDeHckFxEKWNYo1qBCIAXpztE3JcTscD3Ub7tUWvVfstkIEWMoBXDtFU5n-LuXzQ7O7lYV-7Gw",
+    remote_ip: {127, 0, 0, 1},
+    req_cookies: %Plug.Conn.Unfetched{aspect: :cookies},
+    req_headers: [
+      {"host", "localhost:4000"},
+      {"connection", "keep-alive"},
+      {"upgrade-insecure-requests", "1"},
+      {"user-agent",
+       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"},
+      {"accept",
+       "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"},
+      {"accept-encoding", "gzip, deflate, br"},
+      {"accept-language", "en-US,en;q=0.9,my-MM;q=0.8,my;q=0.7"},
+      {"x-hola-unblocker-bext",
+       "reqid 1352385: before request, vpn is not allowed, send headers"},
+      {"x-hola-request-id", "1352385"}
+    ],
+    request_path: "/auth/google/callback",
+    resp_body: nil,
+    resp_cookies: %{},
+    resp_headers: [
+      {"cache-control", "max-age=0, private, must-revalidate"},
+      {"x-request-id", "2l7k3h8gvl0k0j2g3c0000h1"}
+    ],
+    scheme: :http,
+    script_name: [],
+    secret_key_base: "vm4iUthfR27xRVl387MDP7e/jrDmQOkj6xRuCsnUbSthyuRP8vKikMYzZIfKj8Tk",
+    state: :unset,
+    status: nil
+  }
+  
